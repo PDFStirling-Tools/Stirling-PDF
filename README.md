@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="docs/logo.svg" width="120" alt="Stirling PDF logo">
-</p>
-
-<h1 align="center">Stirling PDF</h1>
+<h1 align="center">📄 Stirling PDF</h1>
 
 <p align="center">
   <b>Your all-in-one PDF toolkit that works anywhere: browser, phone or desktop.</b><br>
@@ -17,15 +13,11 @@
 </p>
 
 <p align="center">
-  <a href="#-quick-start">Quick start</a> •
   <a href="#-features">Features</a> •
-  <a href="#-why-project_name">Why us</a> •
+  <a href="#-quick-start">Quick start</a> •
+  <a href="#-why-choose-it">Why choose it</a> •
   <a href="#%EF%B8%8F-roadmap">Roadmap</a> •
   <a href="#-contributing">Contributing</a>
-</p>
-
-<p align="center">
-  <img src="docs/screenshot.png" width="85%" alt="PROJECT_NAME screenshot">
 </p>
 
 ---
@@ -74,7 +66,7 @@
 
 ```bash
 docker run -d \
-  --name PROJECT_NAME \
+  --name stirling-pdf \
   -p 8080:8080 \
   -v ./data:/app/data \
   ghcr.io/mitshelshzo/REPO_NAME:latest
@@ -89,7 +81,7 @@ Then open **http://localhost:8080** in your browser.
 services:
   app:
     image: ghcr.io/mitshelshzo/REPO_NAME:latest
-    container_name: Stirling PDF
+    container_name: stirling-pdf
     ports:
       - "8080:8080"
     volumes:
@@ -110,9 +102,9 @@ Download the installer for your system from the
 
 | System  | File |
 |---------|------|
-| Windows | `Stirling PDFE-setup.exe` |
-| macOS   | `Stirling PDF.dmg` |
-| Linux   | `Stirling PDF.AppImage` |
+| Windows | `Stirling-PDF-setup.exe` |
+| macOS   | `Stirling-PDF.dmg` |
+| Linux   | `Stirling-PDF.AppImage` |
 </details>
 
 <details>
@@ -127,7 +119,7 @@ cd REPO_NAME
 
 ---
 
-## 💡 Why Stirling PDF?
+## 💡 Why choose it?
 
 | | **Stirling PDF** | Online PDF services |
 |---|:---:|:---:|
@@ -183,4 +175,3 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
   Made with 💜 by <a href="https://github.com/mitshelshzo">@mitshelshzo</a><br>
   <sub>If you like the project, give it a ⭐, it really helps!</sub>
 </p>
-
