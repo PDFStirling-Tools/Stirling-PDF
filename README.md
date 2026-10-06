@@ -6,13 +6,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/mitshelshzo/REPO_NAME/releases/latest"><img src="https://img.shields.io/github/v/release/mitshelshzo/REPO_NAME?style=for-the-badge&color=7C3AED&label=release" alt="Release"></a>
-  <a href="https://github.com/mitshelshzo/REPO_NAME/stargazers"><img src="https://img.shields.io/github/stars/mitshelshzo/REPO_NAME?style=for-the-badge&color=7C3AED" alt="Stars"></a>
-  <a href="https://github.com/mitshelshzo/REPO_NAME/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mitshelshzo/REPO_NAME?style=for-the-badge&color=06B6D4" alt="License"></a>
-  <a href="https://github.com/mitshelshzo/REPO_NAME/commits/main"><img src="https://img.shields.io/github/last-commit/mitshelshzo/REPO_NAME?style=for-the-badge&color=06B6D4" alt="Last commit"></a>
-</p>
-
-<p align="center">
   <a href="#-features">Features</a> •
   <a href="#-quick-start">Quick start</a> •
   <a href="#-why-choose-it">Why choose it</a> •
@@ -62,60 +55,15 @@
 
 ## 🚀 Quick start
 
-### Docker (recommended)
-
-```bash
-docker run -d \
-  --name stirling-pdf \
-  -p 8080:8080 \
-  -v ./data:/app/data \
-  ghcr.io/mitshelshzo/REPO_NAME:latest
-```
-
-Then open **http://localhost:8080** in your browser.
-
-<details>
-<summary><b>🐳 Docker Compose</b></summary>
-
-```yaml
-services:
-  app:
-    image: ghcr.io/mitshelshzo/REPO_NAME:latest
-    container_name: stirling-pdf
-    ports:
-      - "8080:8080"
-    volumes:
-      - ./data:/app/data
-    restart: unless-stopped
-```
-
-```bash
-docker compose up -d
-```
-</details>
-
-<details>
-<summary><b>💻 Desktop app</b></summary>
-
-Download the installer for your system from the
-[latest release](https://github.com/mitshelshzo/REPO_NAME/releases/latest):
+Download the latest version from the [**Releases page**](../../releases/latest):
 
 | System  | File |
 |---------|------|
-| Windows | `Stirling-PDF-setup.exe` |
-| macOS   | `Stirling-PDF.dmg` |
-| Linux   | `Stirling-PDF.AppImage` |
-</details>
+| 🪟 Windows | `Stirling-PDF-setup.exe` |
+| 🍎 macOS   | `Stirling-PDF.dmg` |
+| 🐧 Linux   | `Stirling-PDF.AppImage` |
 
-<details>
-<summary><b>🛠 Build from source</b></summary>
-
-```bash
-git clone https://github.com/mitshelshzo/REPO_NAME.git
-cd REPO_NAME
-# install & run commands here
-```
-</details>
+Install, launch, and start working with your PDFs right away.
 
 ---
 
@@ -137,41 +85,4 @@ cd REPO_NAME
 |----------|---------|-------------|
 | `PORT` | `8080` | Port the app listens on |
 | `LANG` | `en` | Interface language |
-| `MAX_FILE_SIZE` | `100MB` | Upload size limit |
-
----
-
-## 🗺️ Roadmap
-
-- [x] Core editing tools
-- [x] Docker image
-- [ ] Mobile-friendly interface
-- [ ] Batch processing
-- [ ] Plugin system
-- [ ] More interface languages
-
-Have an idea? [Open an issue](https://github.com/mitshelshzo/REPO_NAME/issues/new) 💬
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a branch: `git checkout -b feature/my-idea`
-3. Commit your changes: `git commit -m "Add my idea"`
-4. Push and open a Pull Request
-
-Found a bug? [Report it here](https://github.com/mitshelshzo/REPO_NAME/issues).
-
----
-
-## 📄 License
-
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
-
-<p align="center">
-  Made with 💜 by <a href="https://github.com/mitshelshzo">@mitshelshzo</a><br>
-  <sub>If you like the project, give it a ⭐, it really helps!</sub>
-</p>
+| `MAX_FILE_SIZE` |
