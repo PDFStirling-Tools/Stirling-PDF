@@ -1,38 +1,129 @@
-# Stirling PDF
+<div align="center">
 
-A complete open-source workspace for PDF documents. Use it as a desktop application, open it in your browser, or host it on your own server with a private API. Every file is processed locally, so your documents never leave your control.
+# 📄✨ Stirling PDF ✨📄
 
-## What It Can Do
+### $${\color{#7C3AED}Your \space PDFs. \space Your \space device. \space Your \space rules.}$$
 
-- **Works on any setup** – install it on your computer, use it through a web interface, or run it as a server for your whole team.
-- **Dozens of built-in tools** – edit text and pages, merge and split files, add signatures, hide sensitive data, convert between formats, recognize text in scans and shrink file size.
-- **Automated processing** – build step-by-step workflows right in the interface without writing code, and handle large batches of documents automatically.
-- **Ready for business** – single sign-on, activity logs and full control over where and how the platform is deployed.
-- **Built for developers** – almost every tool is available through a REST API, so it fits easily into existing products and services.
-- **Speaks your language** – the interface is translated into many languages.
+**🚀 One app for every PDF task · 🔒 100% private · 💸 Free forever**
 
-## Getting Started
+</div>
 
-The quickest way to try it is with Docker:
+---
+
+> [!TIP]
+> 💡 **No uploads to strangers' servers.** Every file is processed right on your machine, so your contracts, scans and personal documents stay yours.
+
+---
+
+## 🌟 Why People Love It
+
+| 🖥️ Desktop | 🌐 Browser | 🏢 Server |
+|:---:|:---:|:---:|
+| Install and work offline | Open and use, nothing to set up | Host it for your whole team |
+
+---
+
+## 🧰 What's Inside
+
+| | Tool | What it does |
+|:---:|---|---|
+| ✏️ | **Edit** | Change text, images and pages in seconds |
+| 🧩 | **Merge & Split** | Combine files or cut them into parts |
+| ✍️ | **Sign** | Add signatures without printing a single page |
+| 🕶️ | **Redact** | Hide sensitive data permanently |
+| 🔄 | **Convert** | Word, Excel, images and more, in both directions |
+| 🔍 | **OCR** | Turn scans into searchable, selectable text |
+| 🗜️ | **Compress** | Shrink files without visible quality loss |
+| 🔐 | **Protect** | Lock documents with a password |
+
+> ⚡ **And dozens more tools** waiting for you inside!
+
+---
+
+## 🤖 Automate the Boring Stuff
+
+🔁 Build step-by-step workflows right in the interface, **no coding needed**.
+📦 Process hundreds of documents in one go while you grab a coffee ☕
+
+---
+
+## 👨‍💻 Made for Developers Too
+
+🔌 Almost every tool is available through a **REST API**, so you can plug it into your own apps, bots and services in minutes.
+
+---
+
+## 🌍 Speaks Your Language
+
+🇬🇧 🇩🇪 🇫🇷 🇪🇸 🇮🇹 🇵🇱 🇺🇦 🇯🇵 🇨🇳 🇧🇷 🇹🇷 **and many more!**
+
+---
+
+## ⬇️ Why Download From This Repository?
+
+- ✅ **Ready-to-use builds**: download, install, done
+- ✅ **Regular updates** with fresh features and fixes
+- ✅ **Clear release notes** so you always know what changed
+- ✅ **Fast answers** to issues and questions
+
+---
+
+## 🚀 Get Started in 30 Seconds
+
+<details>
+<summary>🖥️ <b>Desktop app</b> (click to expand)</summary>
+
+<br>
+
+1. 📥 Open the **Releases** section of this repository
+2. 💾 Download the file for your system
+3. 🎉 Install and launch. That's it!
+
+</details>
+
+<details>
+<summary>🐳 <b>Docker</b> (click to expand)</summary>
+
+<br>
 
     docker run -p 8080:8080 stirlingtools/stirling-pdf
 
-When the container is running, open port 8080 on your machine in any browser and start working.
+Then open port **8080** in your browser and enjoy 🎊
 
-Desktop installers and other setup options are described in the project documentation.
+</details>
 
-## Help and Community
+---
 
-Have a question or want to share an idea? Join the community chat or open an issue in this repository. Bug reports with clear steps to reproduce are especially appreciated.
+## 💬 Need Help?
 
-## Contributing
+🐞 Found a bug? Open an **issue** and describe what happened.
+💡 Have an idea? We'd love to hear it!
 
-Pull requests are always welcome. Before you start, take a look at the contributing guidelines in this repository.
+---
 
-All common development tasks (building, running and testing) are handled by a single command runner. Run `task dev` to launch the editor in development mode, or just `task` to see the full list of available commands.
+## 🤝 Contributing
 
-Want to add a new interface language? The repository includes a separate guide on adding translations.
+🛠️ Pull requests are always welcome!
 
-## License
+| Command | What it does |
+|---|---|
+| `task dev` | ▶️ Launch the editor in dev mode |
+| `task` | 📋 Show all available commands |
 
-Stirling PDF follows an open-core model. The full license terms are in the LICENSE file of this repository.
+🌐 Want to add a new language? Check the translation guide in this repository.
+
+---
+
+## 📜 License
+
+Stirling PDF follows an **open-core** model. Full terms are in the **LICENSE** file.
+
+---
+
+<div align="center">
+
+### ⭐ Like it? Star the repository, it really helps! ⭐
+
+**Made with 💜 by mitshelshzo**
+
+</div>
