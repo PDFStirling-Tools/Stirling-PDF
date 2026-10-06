@@ -1,88 +1,38 @@
-<h1 align="center">📄 Stirling PDF</h1>
+# Stirling PDF
 
-<p align="center">
-  <b>Your all-in-one PDF toolkit that works anywhere: browser, phone or desktop.</b><br>
-  Edit, convert, sign and protect documents. Self-hosted, private, free.
-</p>
+A complete open-source workspace for PDF documents. Use it as a desktop application, open it in your browser, or host it on your own server with a private API. Every file is processed locally, so your documents never leave your control.
 
-<p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-quick-start">Quick start</a> •
-  <a href="#-why-choose-it">Why choose it</a> •
-  <a href="#%EF%B8%8F-roadmap">Roadmap</a> •
-  <a href="#-contributing">Contributing</a>
-</p>
+## What It Can Do
 
----
+- **Works on any setup** – install it on your computer, use it through a web interface, or run it as a server for your whole team.
+- **Dozens of built-in tools** – edit text and pages, merge and split files, add signatures, hide sensitive data, convert between formats, recognize text in scans and shrink file size.
+- **Automated processing** – build step-by-step workflows right in the interface without writing code, and handle large batches of documents automatically.
+- **Ready for business** – single sign-on, activity logs and full control over where and how the platform is deployed.
+- **Built for developers** – almost every tool is available through a REST API, so it fits easily into existing products and services.
+- **Speaks your language** – the interface is translated into many languages.
 
-## ✨ Features
+## Getting Started
 
-<table>
-<tr>
-<td width="50%" valign="top">
+The quickest way to try it is with Docker:
 
-### 📝 Edit
-- Add, move and edit text and images
-- Rotate, reorder and delete pages
-- Annotate, highlight and draw
+    docker run -p 8080:8080 stirlingtools/stirling-pdf
 
-### 🔄 Convert
-- PDF ⇄ Word, Excel, PowerPoint
-- PDF ⇄ images (PNG, JPG, WebP)
-- HTML and Markdown to PDF
+When the container is running, open port 8080 on your machine in any browser and start working.
 
-</td>
-<td width="50%" valign="top">
+Desktop installers and other setup options are described in the project documentation.
 
-### 🧩 Organize
-- Merge many files into one
-- Split by pages, ranges or size
-- Compress without visible quality loss
+## Help and Community
 
-### 🔐 Secure
-- Password protection and removal
-- Digital signatures
-- Redaction of sensitive data
-- Watermarks
+Have a question or want to share an idea? Join the community chat or open an issue in this repository. Bug reports with clear steps to reproduce are especially appreciated.
 
-</td>
-</tr>
-</table>
+## Contributing
 
-> 🔍 **OCR included:** turn scanned documents into searchable, selectable text.
+Pull requests are always welcome. Before you start, take a look at the contributing guidelines in this repository.
 
----
+All common development tasks (building, running and testing) are handled by a single command runner. Run `task dev` to launch the editor in development mode, or just `task` to see the full list of available commands.
 
-## 🚀 Quick start
+Want to add a new interface language? The repository includes a separate guide on adding translations.
 
-Download the latest version from the [**Releases page**](../../releases/latest):
+## License
 
-| System  | File |
-|---------|------|
-| 🪟 Windows | `Stirling-PDF-setup.exe` |
-| 🍎 macOS   | `Stirling-PDF.dmg` |
-| 🐧 Linux   | `Stirling-PDF.AppImage` |
-
-Install, launch, and start working with your PDFs right away.
-
----
-
-## 💡 Why choose it?
-
-| | **Stirling PDF** | Online PDF services |
-|---|:---:|:---:|
-| Files stay on your machine | ✅ | ❌ |
-| Free, no page limits | ✅ | ⚠️ |
-| Works offline | ✅ | ❌ |
-| No account needed | ✅ | ⚠️ |
-| Open source | ✅ | ❌ |
-
----
-
-## ⚙️ Configuration
-
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `PORT` | `8080` | Port the app listens on |
-| `LANG` | `en` | Interface language |
-| `MAX_FILE_SIZE` |
+Stirling PDF follows an open-core model. The full license terms are in the LICENSE file of this repository.
